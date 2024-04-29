@@ -31,5 +31,5 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone [https://github.com/SrWilly19/ReplicaPancakeSwap.git](https://github.com/SrWilly19/ReplicaPancakeSwap.git)
+   git clone (https://github.com/SrWilly19/ReplicaPancakeSwap.git)
    cd tu-repositorio
