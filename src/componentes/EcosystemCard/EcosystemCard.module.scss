@@ -1,0 +1,262 @@
+.cardcontainer {
+  display: flex;
+  flex-direction: row;
+  //justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: fit-content;
+  padding: 20px;
+  width: 100%;
+
+  gap: var(--space-20px);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  margin: 0px 20px;
+
+  height: 250px;
+  min-width: 120px;
+  max-width: 140px;
+}
+
+.cardImgPurple {
+  width: 90px; /* 90px */
+  height: auto;
+  top: 0%;
+}
+
+.cardImgColor {
+  width: 90px; /* 70% */
+  height: auto;
+  position: absolute;
+  top: 0%;
+  opacity: 0.7; // 0%
+
+  display: block;
+}
+
+.cardTextTitle {
+  margin: 0;
+  font-size: 20px;
+  color: var(--colors-secondary);
+}
+
+.cardText {
+  flex-wrap: wrap;
+  height: auto;
+  font-size: 14px;
+  color: var(--colors-text);
+  gap: var(--space-8px);
+}
+
+.card-text a {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #1fc7d4;
+  font-weight: bold;
+}
+
+.cardlink {
+  text-decoration: none;
+  color: var(--colors-textSubtle);
+}
+
+.swap-on-hover {
+  width: 108px;
+  height: 108px;
+}
+
+.swap-on-hover img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  overflow: hidden;
+
+  object-fit: cover;
+  transition: opacity 0.5s linear;
+}
+
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity 0.5s linear;
+  cursor: pointer;
+}
+
+.card:hover {
+  .cardlink {
+    transition: 0.2s linear;
+    color: var(--colors-primaryBright);
+  }
+}
+
+.ecosystemTitle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  color: var(--colors-secondary);
+  font-size: 40px;
+  margin: 20px;
+  gap: 6px;
+
+  @media (max-width: 768px) {
+  justify-content: center;
+}
+}
+
+.ecosystemImgContainer {
+  width: 20%;
+}
+
+.ecosystemImg {
+  width: 300px;
+  position: relative;
+  height: auto;
+  left: -52px;
+  margin-top: 25px;
+}
+
+.ecosystemImgReversed {
+  width: 300px;
+  position: relative;
+  height: auto;
+  right: -52px;
+  margin-top: 25px;
+}
+
+.ecosystemSegment {
+  display: flex;
+  flex-direction: column;
+  max-width: 80vw;
+}
+
+// .ecosystemImgLeft {
+//   width: 296px;
+//   height: 360px;
+// }
+
+.ecosystemCard {
+  display: flex;
+  //justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  margin: 30px;
+  max-width: 90vw;
+  width: 100%; //1000px
+}
+
+.discoverEcosystemDark {
+  background: var(--colors-gradientBubblegum);
+}
+
+.discoverEcosystemLight {
+  background: var(--colors-backgroundAlt);
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.sectionTitle {
+  display: flex;
+  color: var(--colors-secondary);
+  font-size: 40px;
+  margin: 20px;
+  gap: 6px;
+}
+
+@media (max-width: 768px) {
+  .cardcontainer{
+    flex-wrap: wrap;
+  }
+
+
+  .ecosystemCard {
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    width: 95vw;
+    max-width: 100%;
+    margin: 0px;
+    padding: 20px 0px;
+    margin-bottom: 40px;
+  }
+
+  .ecosystemImg {
+    left: 0px;
+    right: 0px;
+  }
+
+  .ecosystemImgReversed{
+    left: 0px;
+    right: 0px;
+  }
+
+  .ecosystemSegment {
+    max-width: 90vw;
+  }
+
+  .sectionTitle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cardImgPurple {
+    display: block;
+    opacity: 0 !important;
+  }
+
+  .cardImgColor {
+    display: block;
+    opacity: 1 !important;
+  }
+}
+
+@media (max-width: 426px) {
+  .cardcontainer {
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    min-width: 110px;
+    max-width: 110px;
+    // gap: var(--space-8px);
+
+    // overflow: hidden;
+  }
+
+  .ecosystemImg {
+    left: 0px;
+    width: 250px;
+  }
+
+  .ecosystemImgReversed{
+    left: 0px;
+    width: 250px;
+  }
+}
+
+
+.section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

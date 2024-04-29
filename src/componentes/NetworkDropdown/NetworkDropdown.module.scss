@@ -1,0 +1,88 @@
+.dropdownCoinContainer {
+  align-items: center;
+  background-color: var(--colors-tertiary);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -2px 0px inset;
+  cursor: pointer;
+  display: inline-flex;
+  height: 32px;
+  padding-right: 8px;
+  position: relative;
+  border-radius: 16px;
+  color: var(--colors-contrast);
+
+  &:hover {
+    .dropdownCoinContent {
+      display: block;
+    }
+  }
+}
+
+.dropdownCoinContent {
+  width: 230px;
+  z-index: 1000;
+  background-color: var(--colors-backgroundAlt);
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -40px;
+  border: 1px solid;
+  border-color: var(--colors-cardBorder);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.dropdownCoinContent { 
+  p {
+  margin: 6px;
+  color: var(--colors-textSubtle);
+  }
+  hr {
+  border-color: var(--colors-textSubtle)
+  }
+}
+
+.activeNetwork {
+  display: flex;
+  align-items: center;
+}
+
+.buttonWithImage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the start of the container */
+  padding: 8px 6px; /* Adjust spacing between buttons if needed */
+  width: 100%;
+  left: -7;
+  &:hover{background-color: var(--colors-tertiary);}
+}
+
+.buttonImage {
+  height: 35px;
+  width: 35px;
+  color: var(--colors-textSubtle);
+  position: relative;
+  margin-right: 7px;
+  border-radius: 50%;
+}
+
+.DropdownArrowSVG {
+  display: block;
+  width: 24px;
+  fill: var(--colors-contrast);
+}
+
+.DropdownArrowSVGContainer {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .activeNetwork{
+    button {
+      display: none;
+    }
+  }
+}
