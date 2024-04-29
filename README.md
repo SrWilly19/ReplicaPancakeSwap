@@ -33,3 +33,15 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
    ```bash
    git clone https://github.com/SrWilly19/ReplicaPancakeSwap.git
    cd tu-repositorio
+2. Instala las dependencias:
+   npm install
+3. Ejecuta el proyecto con Vite:
+  npm run dev
+4. Para ejecutar el servidor de conversión de imágenes a videos, navega al directorio del servidor y ejecuta:
+   node server.js
+
+## Contribuciones
+Las contribuciones son siempre bienvenidas. Si tienes ideas para mejorar el proyecto o añadir nuevas funcionalidades, considera hacer fork del repositorio y enviar tus pull requests.
+
+## Licencia
+Este proyecto se distribuye bajo la licencia [Nombre de la Licencia], lo que permite su uso, modificación y distribución bajo ciertas condiciones.
