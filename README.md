@@ -47,4 +47,9 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 Las contribuciones son siempre bienvenidas. Si tienes ideas para mejorar el proyecto o añadir nuevas funcionalidades, considera hacer fork del repositorio y enviar tus pull requests.
 
 ## Licencia
-Este proyecto se distribuye bajo la licencia [Nombre de la Licencia], lo que permite su uso, modificación y distribución bajo ciertas condiciones.
+Este proyecto se distribuye bajo la  Licencia MIT, lo que permite su uso, modificación y distribución bajo ciertas condiciones.
+
+## Contacto
+
+Si tienes preguntas o comentarios, no dudes en contactarme en [wahcoral.dev@gmail.com](mailto:wahcoral.dev@gmail.com).
+
