@@ -7,11 +7,11 @@ La réplica está disponible en: [URL en Vercel](https://replica-pancake-swap.ve
 
 ## Tecnologías Utilizadas
 
-- HTML: Utilizado para construir la pagina de manera inicial
-- React: Utilizado para construir la interfaz de usuario con componentes reutilizables.
-- Vite: Como herramienta de construcción para un desarrollo más rápido y una configuración simplificada.
-- CSS: Dar estilo a cada componente
-- JavaScript: Dar la funcionalidad a diversos componentes
+- **HTML**: Utilizado para construir la pagina de manera inicial
+- **React**: Utilizado para construir la interfaz de usuario con componentes reutilizables.
+- **Vite**: Como herramienta de construcción para un desarrollo más rápido y una configuración simplificada.
+- **CSS**: Dar estilo a cada componente
+- **JavaScript**: Dar la funcionalidad a diversos componentes
 - **Node.js y Express**: Para el servidor backend que maneja la conversión de imágenes a videos.
 - **APIs de criptomonedas**: Para obtener precios en tiempo real y manejar transacciones.
 
