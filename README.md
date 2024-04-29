@@ -17,7 +17,7 @@ La réplica está disponible en: [URL en Vercel](https://replica-pancake-swap.ve
 
 ## Características
 
-- Reproducción exacta de la estructura y el diseño de [PancakeSwap].
+- Reproducción exacta de la estructura y el diseño de [PancakeSwap](https://pancakeswap.finance/).
 - Funcionalidades interactivas implementadas con JavaScript.
 - Diseño responsive que se adapta a distintos tamaños de pantalla.
 - **Integración con APIs de Criptomonedas**: Conecta con varias APIs para obtener precios actualizados de criptomonedas y visualizarlos en la interfaz.
