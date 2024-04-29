@@ -20,6 +20,10 @@ La réplica está disponible en: [URL en Vercel](https://replica-pancake-swap.ve
 - Reproducción exacta de la estructura y el diseño de [PancakeSwap].
 - Funcionalidades interactivas implementadas con JavaScript.
 - Diseño responsive que se adapta a distintos tamaños de pantalla.
+- **Integración con APIs de Criptomonedas**: Conecta con varias APIs para obtener precios actualizados de criptomonedas y visualizarlos en la interfaz.
+- **Conexión a Wallets de Criptomonedas**: Permite a los usuarios conectar sus wallets para interactuar directamente con sus activos desde la interfaz de la página.
+- **Dinamismo en Componentes**: Cambios automáticos en la interfaz de usuario, como la actualización de una card específica cuando el usuario conecta su wallet o cuando se actualizan los precios de las monedas.
+- **Conversión de Imágenes a Videos**: Utiliza un servidor backend basado en Node.js y ffmpeg para convertir secuencias de imágenes en videos, que luego se pueden reproducir en la página.
 
 ## Instalación Local
 
@@ -27,5 +31,5 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone [https://github.com/SrWilly19/ReplicaPancakeSwap.git](https://github.com/SrWilly19/ReplicaPancakeSwap.git)
    cd tu-repositorio
