@@ -1,6 +1,6 @@
 # Nombre del Proyecto: Réplica de [PancakeSwap]
 
-Este proyecto es una réplica de [PancakeSwap], diseñado para demostrar habilidades en [tecnologías utilizadas, e.g., HTML, CSS, JavaScript, React]. Esta réplica está desplegada y puede ser vista en Vercel para facilitar el acceso y la revisión en tiempo real.
+Este proyecto es una réplica de [PancakeSwap], diseñado para demostrar habilidades en [HTML, CSS, JavaScript, React, Vite, TypeScript, APIs]. Esta réplica está desplegada y puede ser vista en Vercel para facilitar el acceso y la revisión en tiempo real.
 
 ## Enlace de Visualización
 La réplica está disponible en: [URL en Vercel](https://replica-pancake-swap.vercel.app/))
